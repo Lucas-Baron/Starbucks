@@ -76,3 +76,31 @@ header .line{
     height: 24px;
     cursor: pointer;
 }
+
+/*=========== Banner Principal ==================*/
+.banner{
+    background-image: url(/assets/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.banner h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 88px;
+    font-weight: bold;
+    line-height: 98px;
+    margin-bottom: 42px;
+}
+.banner-images{
+    margin-top: 42px;
+}
+
+.banner-images img{
+    width: 148px;
+    height: 148px;
+    border: 6px solid var(--color-primary);
+    border-radius: 50%;
+    margin-right: 40px;;
+}
