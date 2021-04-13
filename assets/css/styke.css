@@ -202,3 +202,28 @@ h2{
     background-size: cover;
     background-position: center;
 }
+
+/* ================================== Area 3 =======================================*/
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+}
+
+.area3-text{
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.area3-content{
+    padding: 200px 80px;
+    background-image: url(/assets/images/bg2.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.area3-img1{
+    background-image: url(/assets/images/f5.jpg);
+    background-size: cover;
+    background-position: center;
+}
