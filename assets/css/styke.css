@@ -23,6 +23,30 @@ header .line{
     margin: auto;
 }
 
+.bar{
+    background-color: var(--color-primary);
+    width:168px;
+    height: 22px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 88px;
+    font-weight: bold;
+    line-height: 98px;
+    margin-bottom: 42px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+
+}
+
 .header-area{
     height:100px;
     display: flex;
@@ -86,13 +110,6 @@ header .line{
     padding-bottom: 96px;
 }
 
-.banner h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 88px;
-    font-weight: bold;
-    line-height: 98px;
-    margin-bottom: 42px;
-}
 .banner-images{
     margin-top: 42px;
 }
@@ -103,4 +120,30 @@ header .line{
     border: 6px solid var(--color-primary);
     border-radius: 50%;
     margin-right: 40px;;
+}
+
+/* ======================================= Area 1 ===================================*/
+.area1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+}
+
+.area1-content{
+    padding: 80px;
+}
+
+.area1-img1{
+    background-color: green;
+    height: 300px;
+    background-image: url(/assets/images/f2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.area1-img2{
+    background-color: red;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url(/assets/images/f1.jpg);
+    background-size: cover;
+    background-position: center;
 }
